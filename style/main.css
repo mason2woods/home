@@ -231,7 +231,7 @@ div.slider-nav span.left{background:url(../images/left.png);left:0; }
 /* 四合一 end */
 
 /* 四合一附属区域 */
-.fushu{ width:748px; height:140px; overflow:hidden; border:solid #cecece 1px; background:#fff; margin-top:10px;}
+.fushu{ width:748px; height:150px; overflow:hidden; border:solid #cecece 1px; background:#fff; margin-top:10px;}
 .fushu ul{ padding:10px 0 10px 20px;}
 .fushu ul li{ float:left; width:220px; height:27px; color:#cecece; margin-right:22px; line-height:27px; *line-height:20px; overflow:hidden; white-space:nowrap; text-overflow:ellipsis;}
 .fushu ul li a:hover { color:#f08300;}

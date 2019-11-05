@@ -9,10 +9,10 @@ document.write ("<div class='clear'></div>");
     document.write ("<div class='header'>");
 	
 document.write ("<div class='top'>");
-    document.write ("<div class='logo'><a href='https://dogecoin.com/' target='_blank'><img src='https://i.postimg.cc/kM8GmtrT/doge.jpg' width='230' height='100' alt='DOGE' title='Dogecoin' /></a></div>");
+    document.write ("<div class='logo'><a href='https://dogecoin.com/' target='_blank'><img src='images/doge.jpg' width='230' height='100' alt='DOGE' title='Dogecoin' /></a></div>");
     document.write ("<div class='date'>");
         <!-- document.write ("<div class='time'><a href='#'>7月25日 周五六月廿九</a></div>"); -->
-        document.write ("<div class='weather'><iframe width='455' scrolling='no' height='75' frameborder='0' allowtransparency='true' src='http://i.tianqi.com/index.php?c=code&id=38&icon=1&num=2&align=left'></iframe></div>");
+        document.write ("<div class='weather'><iframe width='455' scrolling='no' height='75' frameborder='0' allowtransparency='true' src='https://i.tianqi.com/index.php?c=code&id=9'></iframe></div>");
         document.write ("<a href='http://www.monero.cc/'target='_blank'><div class='adv1'><img src='images/monero-logo.png' width='300' height='85' alt='门罗币' title='Home | Monero - secure, private, untraceable' /></div></a>");
     document.write ("</div>");
 document.write ("</div>");
