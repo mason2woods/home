@@ -2,9 +2,9 @@
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
 <link href="images/favicon.ico" rel="Shortcut Icon" />
-<!-- <meta http-equiv="Content-Type" content="text/html; charset=utf-8" /> -->
+<meta charset="utf-8">
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 <title>个人导航之家</title>
-<link rel="stylesheet" href="css/baidu.css" rel="external nofollow" />
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <meta name="keywords" content="个人导航之家,Home,导航,新闻,体育,视频,网址大全">
@@ -30,16 +30,90 @@ $(function(){
 	})
 })
 </script>
-    <style>
-        form {
-            width: 500px;
-            height: 50px;
-            padding: 10px 20px 20px;
-            text-align: center;
-            line-height: 50px;
-            border: 1px solid #777777;
-             }
-    </style>
+   <style>
+	html {
+      height: 100%;
+    }
+
+    body {
+      background: #f0f3ef;
+      height: 100%;
+    }
+
+    .container {
+      height: 100%;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-direction: column;
+    }
+
+    .bgDiv {
+      box-sizing: border-box;
+      width: 650px;
+      height: 30px;
+      position: relative;
+    /* position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%); */
+    }
+
+    .search-input-text {
+      border: 3px solid #b6b6b6;
+      width: 500px;
+      background: #fff;
+      height: 25px;
+      line-height: 20px;
+      font-size: 20px;
+      padding: 5px 5px 5px 5px;
+    }
+
+    .search-input-button {
+      width: 120px;
+      height: 60px;
+      color: #fff;
+      font-size: 16px;
+      letter-spacing: 5px;
+      background: #9900FF;
+      border: 2px  solid #2d78f4;
+      margin-left: 10px;
+      vertical-align: 5px;
+      opacity: 0.9;
+    }
+
+    .search-input-button:hover {
+      opacity: 1;
+      box-shadow: 5px 5px 1px #333;
+      cursor: pointer;
+    }
+
+    .suggest {
+      width: 500px;
+      position: absolute;
+      top: 53px;
+      border: 1px solid #999;
+      background: #fff;
+      display: none;
+    }
+
+    .suggest ul {
+      list-style: none;
+      margin: 0;
+      padding: 0;
+    }
+
+    .suggest ul li {
+      padding: 3px;
+      font-size: 17px;
+      line-height: 25px;
+      cursor: pointer;
+    }
+
+    .suggest ul li:hover {
+      background-color: #e5e5e5
+    }
+	</style>
 </head>
 
 <body>
@@ -51,7 +125,7 @@ $(function(){
             
 		</ul>
 		<div class="panes">
-			<div class="pane" style="display:block; height:1420px;"><div class="conter">
+			<div class="pane" style="display:block; height:1300px;"><div class="conter">
     <!--<script type="text/javascript" src="js/menu.js"></script>-->
     <!-- 主体信息 -->
     <div class="wzdq">
@@ -139,8 +213,9 @@ $(function(){
               
                 <a name="常用邮箱"></a>                
                 <ul class="gold1">
-                    <li><a title="网易免费邮箱 - 中国第一大电子邮件服务商" href="https://mail.163.com/js6/main.jsp?sid=IBOufwJAtehezOODwuAAGiSxPBnaLMKM&df=email163#module=welcome.WelcomeModule%7C%7B%7D" target="_blank">163邮箱</a></li>        
-                    <li><a title="Outlook - 来自 Microsoft 的免费个人电子邮件和日历" href="https://outlook.live.com/mail/inbox" target="_blank">Outlook</a></li>
+                    <li><a title="网易免费邮箱 - 中国第一大电子邮件服务商" href="https://mail.163.com/js6/main.jsp?sid=IBOufwJAtehezOODwuAAGiSxPBnaLMKM&df=email163#module=welcome.WelcomeModule%7C%7B%7D" target="_blank">163邮箱</a></li>
+                    <li><a title="Outlook - 来自 Microsoft 的免费个人电子邮件和日历" href="https://outlook.live.com/mail/inbox" target="_blank">Hotmail</a></li>
+                    <li><a title="腾讯企业邮箱" href="https://exmail.qq.com/login" target="_blank">腾讯企业邮箱</a></li>
                     <li><a title="搜狐闪电邮箱" href="https://mail.sohu.com/fe/#/homepage" target="_blank">搜狐闪电邮箱</a></li>
                     <li><a title="Gmail" href="https://mail.google.com/mail/" target="_blank">Gmail</a></li>
                     <li><a title="Secure email: ProtonMail is free encrypted email." href="https://mail.protonmail.com/" target="_blank">ProtonMail</a></li>
@@ -154,19 +229,28 @@ $(function(){
                 <a name="常用网址"></a>
                 <ul class="gold1">
                     <li><a title="百度一下，你就知道" href="https://www.baidu.com/" target="_blank">百度一下</a></li>
+                    <li><a title="百度翻译" href="https://fanyi.baidu.com/" target="_blank">百度翻译</a></li>
                     <li><a title="Google" href="https://www.google.com/" target="_blank">Google</a></li>
                     <li><a title="Twitter —— 聚焦当下。" href="https://twitter.com/" target="_blank">Twitter</a></li>
                     <li><a title="Facebook" href="https://www.facebook.com/" target="_blank">Facebook</a></li>
-                    <li><a title="我的首页 微博-随时随地发现新鲜事" href="https://weibo.com/u/2294531954/home?topnav=1&wvr=6" target="_blank">微博</a></li>                   
+                    <li><a title="reddit: the front page of the internet" href="https://www.reddit.com/" target="_blank">reddit</a></li>
+                    <li><a title="Instagram" href="https://www.instagram.com/" target="_blank">Instagram</a></li>
+                    <li><a title="Telegram Web" href="https://web.telegram.org/" target="_blank">TelegramWeb</a></li>
+                    <li><a title="Discord — Free Voice and Text Chat for Gamers" href="https://discordapp.com/" target="_blank">Discord</a></li>
+                    <li><a title="我的首页 微博-随时随地发现新鲜事" href="https://weibo.com/u/2294531954/home?topnav=1&wvr=6" target="_blank">微博</a></li> 
+                    <li><a title="张桥之家_日常点滴分享" href="http://www.zhangqiao.site/" target="_blank">张桥之家</a></li>
+                    <li><a title="Cryptonline-加密在线-数字货币导航之家" href="https://cryptonline.neocities.org/" target="_blank">Cryptonline</a></li>
                     <li><a title="张桥数码-流量卡-优惠套餐卡-大流量卡-4G高速流量-物联网卡-中国移动-中国联通-中国电信" href="http://www.shoujika.cr.cx/" target="_blank">张桥数码</a></li>                    
                     <li><a title="张大仙直播_指法芬芳张大仙官方直播间688_张大仙视频_虎牙直播" href="https://www.huya.com/688" target="_blank">张大仙直播</a></li>                    
                     <li><a title="Hostbrz" href="https://www.hostbrz.com/portal/clientarea.php?action=productdetails&id=8380" target="_blank">Hostbrz</a></li>
                     <li><a title="IT之家 - 数码，科技，生活 - 软媒旗下" href="https://www.ithome.com/" target="_blank">IT之家</a></li> 
+                    <li><a title="东方财富网：财经门户，提供专业的财经、股票、行情、证券、基金、理财、银行、保险、信托、期货、黄金、股吧、博客等各类财经资讯及数据" href="http://www.eastmoney.com/" target="_blank">东方财富网</a></li>
                     <li><a title="老D博客 - 关注谷歌服务，分享互联网精神！" href="https://laod.cn/" target="_blank">老D博客</a></li> 
                     <li><a title="中国超雪-首页" href="http://www.heicard.com/" target="_blank">中国超雪</a></li>                    
                     <li><a title="短网址二维码生成工具_短链接服务_短网址 - 三维推" href="http://3w.cn/" target="_blank">短网址</a></li>
                     <li><a title="百度搜索资源平台_让网站更具价值" href="https://ziyuan.baidu.com/?castk=LTE%3D" target="_blank">百度资源</a></li>  
-                    <li><a title="【在线PS】PS软件网页版，ps在线图片处理工具photopea-稿定设计PS" href="https://ps.gaoding.com/" target="_blank">在线PS</a></li>   
+                    <li><a title="【在线PS】PS软件网页版，ps在线图片处理工具photopea-稿定设计PS" href="https://ps.gaoding.com/" target="_blank">在线PS</a></li>
+                    <li><a title="快递100-查快递,寄快递,上快递100" href="https://www.kuaidi100.com/" target="_blank">快递100</a></li>
 
                 </ul>
               
@@ -199,6 +283,8 @@ $(function(){
                     <li><a title="京东(JD.COM)-正品低价、品质保障、配送及时、轻松购物！" href="https://www.jd.com/" target="_blank">京东</a></li>
                     <li><a title="苏宁易购(Suning.com)-送货更准时、价格更超值、上新货更快" href="https://www.suning.com/" target="_blank">苏宁</a></li>
                     <li><a title="Getthelabel" href="https://cn.getthelabel.com/" target="_blank">Getthelabel</a></li>
+                    <li><a title="Amazon.com: Online Shopping for Electronics, Apparel, Computers, Books, DVDs & more" href="https://www.amazon.com/" target="_blank">Amazon.com</a></li>
+                    <li><a title="Electronics, Cars, Fashion, Collectibles, Coupons and More | eBay" href="https://www.ebay.com/" target="_blank">eBay</a></li>
                     <li><a title="什么值得买 | 认真生活，好好花钱" href="https://www.smzdm.com/" target="_blank">什么值得买</a></li>                 
                   
                 </ul>
@@ -210,6 +296,7 @@ $(function(){
                 <a name="机械常用网址"></a>                
                 <ul class="gold1">
                     <li><a title="Festo产品" href="https://www.festo.com.cn/cat/zh-cn_cn/products" target="_blank">Festo产品</a></li>
+                    <li><a title="inCAD Library | MISUMI-VONA | MISUMI的综合Web产品目录" href="https://www.misumi.com.cn/asia/incadlibrary/" target="_blank">MISUMI</a></li>
                     <li><a title="igus CAD" href="https://www.igus-cad.com/" target="_blank">igus CAD</a></li>
                     <li><a title="上銀科技 | HIWIN |全世界傳動控制產品與系統科技產品的專業製造者" href="https://www.hiwin.tw/" target="_blank">上银HIWIN</a></li>
                     <li><a title="主页 | [ THK || 中国 ]" href="https://www.thk.com/" target="_blank">THK</a></li>
@@ -218,7 +305,10 @@ $(function(){
                     <li><a title="上舜精密实业有限公司 - 产品介绍 - SBS 全密式螺杆传动模组 - SBSW178 全密式螺杆传动模组[四滑块]" href="http://www.smoothrobot.com.tw/" target="_blank">上舜精密</a></li>
                     <li><a title="三河同飞制冷股份有限公司" href="http://www.tfzl.com/" target="_blank">同飞制冷</a></li>
                     <li><a title="武汉锐科光纤激光技术股份有限公司" href="http://www.raycuslaser.com/" target="_blank">锐科激光</a></li>
+                    <li><a title="BECKHOFF 中国" href="http://www.beckhoff.com.cn/" target="_blank">BECKHOFF</a></li>
+                    <li><a title="三菱电机自动化（中国）有限公司" href="https://mitsubishielectric.yangben.cn/" target="_blank">三菱电机</a></li>
                     <li><a title="SooPAT 专利搜索" href="http://www.soopat.com/" target="_blank">SooPAT</a></li>
+                    <li><a title="开拔网_机械三维模型|CAD图纸|3D模型|机械模型_非标自动化设备设计师的摇篮" href="http://www.sanweimoxing.com/" target="_blank">开拔网</a></li>
            
                 </ul>
                 
@@ -242,9 +332,15 @@ $(function(){
               
                 <a name="币圈常用网址"></a>
                 <ul class="gold1">
+                    <li><a title="虚拟币挖矿教程网 -  新币挖矿信息发布-挖矿软件使用方法-各种矿机评测" href="http://www.mxkj100.com/forum.php" target="_blank">虚拟币挖矿</a></li>
+                    <li><a title="Latest mineable, staking and Masternode coins" href="https://newrewardcoins.com/" target="_blank">Newrewardcoins</a></li>
+                    <li><a title="币今网_数字货币行业大数据" href="https://b.today/" target="_blank">币今网</a></li>
                     <li><a title="非小号 - 比特币行情价格_专注数字货币行业大数据分析" href="https://www.feixiaohao.com/" target="_blank">非小号</a></li>
                     <li><a title="Cryptocurrency Market Capitalizations | CoinMarketCap" href="https://coinmarketcap.com/" target="_blank">Coinmarketcap</a></li>
-                    <li><a title="Cryptonline-加密在线-数字货币导航之家" href="http://www.cryptonline.660v.com/" target="_blank">加密在线</a></li>
+                    <li><a title="比特币区块浏览器 - BTC.com" href="https://btc.com/" target="_blank">btc.com</a></li>
+                    <li><a title="ETH以太坊区块链查询浏览器 ETH浏览器 ETH区块查询 以太坊区块浏览器" href="https://www.yitaifang.com/" target="_blank">yitaifang</a></li>
+                    <li><a title="EOSPark | EOS 浏览器, 账户, 智能合约, 超级节点 | EOSPark" href="https://eospark.com/" target="_blank">EOSPark</a></li>
+                    <li><a title="TRONSCAN | TRON BlockChain Explorer | 波场区块链浏览器" href="https://tronscan.org/" target="_blank">TRONSCAN</a></li>
                     <li><a title="airdrop123.com" href="http://airdrop123.com/" target="_blank">airdrop123.com</a></li>
                     <li><a title="Turtlecoin (TRTL) Argon2id Chukwa | Mining Pools" href="https://miningpoolstats.stream/turtlecoin" target="_blank">乌龟币全网算力</a></li>
                     <li><a title="星火矿池官网 - 专业的以太坊ETH矿池 & PoS 矿池、BEAM 矿池、GRIN 矿池、COSMOS 矿池" href="https://www.sparkpool.com/miner/0x7E9CfCBc5d2a0f1382Da82618B5252e2c7713a5b/data?currency=ETH" target="_blank">ETH星火矿池</a></li>
@@ -261,39 +357,11 @@ $(function(){
                     <li><a title="Bithumb" href="https://www.bithumb.com/" target="_blank">Bithumb</a></li>
                     <li><a title="Bitcoin &amp; Cryptocurrency Exchange | Bitcoin Trading Platform | Kraken" href="https://www.kraken.com/" target="_blank">K网Kraken</a></li>
                     <li><a title="Crypto and Fiat Currency Exchange | Trade with Liquid.com" href="https://www.liquid.com/" target="_blank">Liquid</a></li>
-                    <li><a title="MXC - The World's Leading Digital Assets Trading Platform - 抹茶交易所 - 全球领先的资产交易平台" href="https://www.mxc.co/" target="_blank">MXC</a></li>
+                    <li><a title="MXC - The World's Leading Digital Assets Trading Platform - 抹茶交易所 - 全球领先的资产交易平台" href="https://www.mxc.ceo/" target="_blank">MXC</a></li>
                     <li><a title="Bibox官网 | 比特币 | 以太坊 | 首个AI数字资产交易平台" href="https://www.bibox365.com/" target="_blank">Bibox</a></li>
                 </ul>
               
-                <ul class="gold2">
-                    <li><a title="币圈常用钱包">★币圈常用钱包</a><img src="images/next.png" alt="" style="width:13px; height:7px;" /></li>
-                </ul>
-              
-                <a name="币圈常用钱包"></a>                
-                <ul class="gold1">
-                    <li><a title=" Coinbase Wallet " href="https://wallet.coinbase.com/" target="_blank">Coinbase Wallet</a></li>
-                    <li><a title="imToken 官方网站 | 首页 | 全球知名的区块链数字货币钱包。支持比特币、以太坊、EOS、Cosmos 等多条公链" href="https://token.im/" target="_blank">imToken</a></li>
-                    <li><a title="Kcash - 全球领先的多链数字钱包" href="https://www.kcash.com/" target="_blank">Kcash</a></li>
-                    <li><a title="币信官方网站" href="https://bixin.com/" target="_blank">币信</a></li>
-                    <li><a title="TokenPocket - 你的通用数字钱包 | TP钱包 - EOS钱包 - ETH钱包  - IOST钱包 - BOS钱包 - 墨客钱包 - ENU钱包 - 井通钱包" href="https://www.tokenpocket.pro/" target="_blank">Token Pocket</a></li>
-                    <li><a title="Bitpie - Hi Blockchain" href="https://bitpie.com/" target="_blank">比特派</a></li>
-                    <li><a title="Cobo钱包-专业数字币虚拟币钱包APP,支持比特币,以太币,莱特币等虚拟数字币" href="https://cobo.com/" target="_blank">Cobo</a></li>
-                    <li><a title="火币钱包官网 | 专业的多币种钱包" href="https://www.huobiwallet.com/" target="_blank"><span>Huobi Wallet</span></a></li>
-                    <li><a title="MetaMask" href="https://metamask.io/" target="_blank">MetaMask</a></li>
-                    <li><a title="BTC.com - Wallet for Bitcoin and Bitcoin Cash" href="https://wallet.btc.com/#/setup/login" target="_blank">BTC Wallet</a></li>
-                    <li><a title="PocketECO" href="https://www.pocketeos.com/#/pcIndex/PocketEOS" target="_blank">PocketEOS</a></li>
-                    <li><a title="Mixin" href="https://mixin.one/" target="_blank">Mixin</a></li>
-                    <li><a title="NEON" href="https://neonwallet.com/" target="_blank">Neon Wallet</a></li>
-                    <li><a title="TRON | Decentralize The Web" href="https://tron.network/wallet?lng=en" target="_blank">TRON Wallet</a></li>
-                    <li><a title="NEO App" href="https://www.neowallet.cn/" target="_blank">NEON</a></li>
-                    <li><a title="Wallet - Qtum" href="https://qtumeco.io/wallet" target="_blank">Qtum Core</a></li>
-                    <li><a title="NEM &#8211; Distributed Ledger Technology (Blockchain) &raquo; Downloads" href="https://nem.io/downloads/" target="_blank">NEM Wallet</a></li>
-                    <li><a title="vaklinov/zcash-swing-wallet-ui: DEPRECATED: not to be used! - Desktop GUI Wallet for ZCash" href="https://github.com/vaklinov/zcash-swing-wallet-ui" target="_blank">ZCash Wallet</a></li>
-                    <li><a title="Hardware Wallet - State-of-the-art security for crypto assets | Ledger" href="https://www.ledger.com/" target="_blank">Ledger</a></li>
-                    <li><a title="Hyperpay - The Only Digital Wallet You would Ever Need" href="https://www.hyperpay.tech/" target="_blank">HyperPay</a></li>
-                    <li><a title="麦子钱包官网 - 您的区块链应用入口" href="http://www.mathwallet.org/cn/" target="_blank">麦子钱包</a></li>
-					<li><a title="Best Cryptocurrency Wallet | Ethereum Wallet | ERC20 Wallet | Trust Wallet" href="https://trustwallet.com/" target="_blank">TrustWallet</a></li>
-                </ul>
+                
             </div>
             <!-- 常用网址 end -->
 
@@ -308,9 +376,11 @@ $(function(){
 					<br>
                     <a>ETH地址</a>丨<a>0x7E9CfCBc5d2a0f1382Da82618B5252e2c7713a5b</a></li>
 					<br>
-                    <a>LTC地址</a>丨<a>LTacxb5KZ8dThdUTJKx152v2nJiudyYPKv</a></li>
+					          <a>XMR地址丨4BKSV14E6Ks2NyfJShqMS4ZsJkEkiHLQ87FAKCQN7q2ESnRBjyakFi2Qf7kw8QoMUr6E4BcDtuD5JVn1uqr4wGmSLTPENP3</a>
 					<br>
                     <a>EOS地址</a>丨<a>alexmason1os</a></li>
+          <br>          
+                    <a>LTC地址</a>丨<a>LTacxb5KZ8dThdUTJKx152v2nJiudyYPKv</a></li>
 					<br>
                     <a>ZEC地址</a>丨<a>t1RjSadEWFjhWXRBqSCRdbigiYDEMbPmeu4</a></li>
 					<br>
@@ -356,6 +426,127 @@ $(function(){
 
 <script type="text/javascript" src="js/footer.js"></script> <!-- 网底 -->
 <!--<script type="text/javascript" src="js/index_lxwm.js"></script>--> <!-- 联系方式浮窗特效 -->
+  <script>
+    var suggestContainer = document.getElementsByClassName("suggest")[0];
+    var searchInput = document.getElementsByClassName("search-input-text")[0];
+    var bgDiv = document.getElementsByClassName("bgDiv")[0];
+    var searchResult = document.getElementById("search-result");
+
+    // 清除建议框内容
+    function clearContent() {
+      var size = searchResult.childNodes.length;
+      for (var i = size - 1; i >= 0; i--) {
+        searchResult.removeChild(searchResult.childNodes[i]);
+      }
+    };
+
+    var timer = null;
+    // 注册输入框键盘抬起事件
+    searchInput.onkeyup = function (e) {
+      suggestContainer.style.display = "block";
+      // 如果输入框内容为空 清除内容且无需跨域请求
+      if (this.value.length === 0) {
+        clearContent();
+        return;
+      }
+      if (this.timer) {
+        clearTimeout(this.timer);
+      }
+      if (e.keyCode !== 40 && e.keyCode !== 38) {
+        // 函数节流优化
+        this.timer = setTimeout(() => {
+          // 创建script标签JSONP跨域
+          var script = document.createElement("script");
+          script.src = "https://www.baidu.com/su?&wd=" + encodeURI(this.value.trim()) +
+            "&p=3&cb=handleSuggestion";
+          document.body.appendChild(script);
+        }, 130)
+      }
+
+    };
+
+    // 回调函数处理返回值
+    function handleSuggestion(res) {
+      // 清空之前的数据！！
+      clearContent();
+      var result = res.s;
+      // 截取前五个搜索建议项
+      if (result.length > 4) {
+        result = result.slice(0, 5)
+      }
+      for (let i = 0; i < result.length; i++) {
+        // 动态创建li标签
+        var liObj = document.createElement("li");
+        liObj.innerHTML = result[i];
+        searchResult.appendChild(liObj);
+      }
+      // 自执行匿名函数--删除用于跨域的script标签
+      (function () {
+        var s = document.querySelectorAll('script');
+        for (var i = 1, len = s.length; i < len; i++) {
+          document.body.removeChild(s[i]);
+        }
+      })()
+    }
+
+
+    function jumpPage() {
+      window.open(`https://www.baidu.com/s?word=${encodeURI(searchInput.value)}`);
+    }
+
+    // 事件委托 点击li标签或者点击搜索按钮跳转到百度搜索页面
+    bgDiv.addEventListener("click", function (e) {
+      if (e.target.nodeName.toLowerCase() === 'li') {
+        var keywords = e.target.innerText;
+        searchInput.value = keywords;
+        jumpPage();
+      } else if (e.target.id === 'btn') {
+        jumpPage();
+      }
+    }, false);
+
+    var i = 0;
+    var flag = 1;
+
+    // 事件委托 监听键盘事件
+    bgDiv.addEventListener("keydown", function (e) {
+      var size = searchResult.childNodes.length;
+      if (e.keyCode === 13) {
+        jumpPage();
+      };
+      // 键盘向下事件
+      if (e.keyCode === 40) {
+        if (flag === 0) {
+          i = i + 2;
+        }
+        flag = 1;
+        e.preventDefault();
+        if (i >= size) {
+          i = 0;
+        }
+        if (i < size) {
+          searchInput.value = searchResult.childNodes[i++].innerText;
+        }
+      };
+      // 键盘向上事件
+      if (e.keyCode === 38) {
+        if (flag === 1) {
+          i = i - 2;
+        }
+        flag = 0;
+        e.preventDefault();
+        if (i < 0) {
+          i = size - 1;
+        }
+        if (i > -1) {
+          searchInput.value = searchResult.childNodes[i--].innerText;
+        }
+      };
+    }, false);
+
+    // 点击页面任何其他地方 搜索结果框消失
+    document.onclick = () => clearContent()
+  </script>
 </body>
 
 </html>
