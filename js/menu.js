@@ -2,6 +2,8 @@
 document.write ("<div class='head'>");
     document.write ("<div class='head_div'>");
         document.write ("<div class='head_left'>您好，欢迎来到<span>个人导航之家</span>！</div>");
+		document.write ("<div class='head_middle'> <span id='cg'></span> </div>");
+		document.write ("<div class='head_middle'> <span id='clock'></span> </div>");
         document.write ("<div class='head_right'><a href='#' class='to_ri_sp2'>Ctrl+D 加入收藏</a></div>");
     document.write ("</div>");
 document.write ("</div>");
