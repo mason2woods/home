@@ -31,19 +31,19 @@ body{ background-color:#fcfcfc;}
 .adv1{ float:right; border:solid #cecece 1px; padding:1px; margin-top:18px;}
 
 /* 入驻 + 搜索栏 */
-.search{ width:1000px; height:84px; background:url(../images/search_bj.jpg) repeat-x; border-left:solid #cecece 1px; border-right:solid #cecece 1px; margin-top:10px; float:left; }
+.search{ width:1000px; height:80px; background:url(../images/search_bj.jpg) repeat-x; border-left:solid #cecece 1px; border-right:solid #cecece 1px; margin-top:10px; float:left; }
 .ruzhu{ padding:18px; float:left}
 .ruzhu:hover{filter:alpha(opacity=60);opacity:0.8;}
-.sea_left{ width:80px; height:30px; border:solid #009b4d 1px; float:left; margin:18px 0 0 25px;}
-.sea_left p {/*padding:6px 0 0 11px; */ line-height:30px; text-align:center; font-size:13px; }
-.sea_center{ width:440px; height:30px; border:solid #009b4d 1px; float:left; margin:18px 0 0 5px; *margin:18px 0 0 5px; *float:left; }
+.sea_left{ width:100px; height:40px; border:solid #009b4d 1px; float:left; margin:22px 10px 10px 25px;}
+.sea_left p {/*padding:6px 0 0 11px; */ line-height:40px; text-align:center; font-size:16px; }
+.sea_center{ width:400px; height:40px; border:solid #009b4d 1px; float:left; margin:18px 0 0 5px; *margin:18px 0 0 5px; *float:left; }
 /*.sea_center1{ *float:left; }*/
-.txtSearch{ width:435px; height:28px; line-height:26px; padding-left:5px; font-size:13px; color:#aaaaaa; padding-top:2px; *padding-top:0px; }
+.txtSearch{ width:350px; height:28px; line-height:26px; padding-left:5px; font-size:13px; color:#aaaaaa; padding-top:2px; *padding-top:0px; }
 .sea_right{ width:95px; height:32px; background:url(../images/sea_right_bj.jpg) repeat-x; border:solid #009b4d 1px; float:right; margin:18px 103px 0 0; font-size:14px;}
-.sea_bottom{ float:left; margin:3px 0 0 50px;}
+.sea_bottom{ float:left; margin:10px 5px 5px 50px;}
 .sea_bottom .span1{ color:#f08300; }
 .sea_bottom span{ padding-right:7px;}
-.search_bottom{ width:1000px; float:left; height:3px; background:url(../images/search_bottom.jpg) no-repeat;}
+.search_bottom{ width:1000px; float:left; height:5px; background:url(../images/search_bottom.jpg) no-repeat;}
 .copyrights{text-indent:-9999px;height:0;line-height:0;font-size:0;overflow:hidden;}
 /* 入驻 + 搜索栏 end*/
 
@@ -231,7 +231,7 @@ div.slider-nav span.left{background:url(../images/left.png);left:0; }
 /* 四合一 end */
 
 /* 四合一附属区域 */
-.fushu{ width:748px; height:150px; overflow:hidden; border:solid #cecece 1px; background:#fff; margin-top:10px;}
+.fushu{ width:748px; height:200px; overflow:hidden; border:solid #cecece 1px; background:#fff; margin-top:10px;}
 .fushu ul{ padding:10px 0 10px 20px;}
 .fushu ul li{ float:left; width:220px; height:27px; color:#cecece; margin-right:22px; line-height:27px; *line-height:20px; overflow:hidden; white-space:nowrap; text-overflow:ellipsis;}
 .fushu ul li a:hover { color:#f08300;}
