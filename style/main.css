@@ -26,7 +26,7 @@ body{ background-color:#fcfcfc;}
 .top{ overflow:hidden; width:1000px; margin-bottom:10px; margin:0 auto;}
 .logo{ padding-top:10px;float:left;}
 .time{ width:75px; padding:28px 0 0 30px; font-size:12px; line-height:24px; float:left}
-.weather{ float:left; margin-top:13px; margin-left:10px; }
+.weather{ float:left; margin-top:30px; margin-left:10px; }
 .weather_five:hover{text-decoration: underline; color:#ff4800}
 .adv1{ float:right; border:solid #cecece 1px; padding:1px; margin-top:18px;}
 
