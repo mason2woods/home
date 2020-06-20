@@ -4,7 +4,7 @@ document.write ("<div class='head'>");
         document.write ("<div class='head_left'>您好，欢迎来到<span>个人导航之家</span>！</div>");
 		document.write ("<div class='head_left'> <span id='cg'></span> </div>");
 		document.write ("<div class='head_left'> <span id='clock'></span> </div>");
-        document.write ("<div class='head_right'><a href='#' class='to_ri_sp2'>Ctrl+D 加入收藏</a></div>");
+        document.write ("<div class='head_right'><a href='#' class='to_ri_sp2'>按 Ctrl+D 加入收藏</a></div>");
     document.write ("</div>");
 document.write ("</div>");
 document.write ("<div class='clear'></div>");
@@ -13,7 +13,6 @@ document.write ("<div class='clear'></div>");
 document.write ("<div class='top'>");
     document.write ("<div class='logo'><a href='https://dogecoin.com/' target='_blank'><img src='images/doge.jpg' width='230' height='100' alt='DOGE' title='Dogecoin' /></a></div>");
     document.write ("<div class='date'>");
-        <!-- document.write ("<div class='time'><a href='#'>7月25日 周五六月廿九</a></div>"); -->
         document.write ("<div class='weather'><iframe width='455' scrolling='no' height='75' frameborder='0' allowtransparency='true' src='https://i.tianqi.com/index.php?c=code&id=9'></iframe></div>");
         document.write ("<a href='http://www.monero.cc/'target='_blank'><div class='adv1'><img src='images/monero-logo.png' width='300' height='85' alt='门罗币' title='Home | Monero - secure, private, untraceable' /></div></a>");
     document.write ("</div>");
@@ -31,8 +30,8 @@ document.write ("<div class='search'>");
                 document.write ("<input type='text' class='search-input-text' value='' autofocus placeholder='请输入关键词'>");
                   document.write ("<input type='button' value='搜索一下' class='search-input-button' id='btn'>");
                     document.write ("<div class='suggest'>");
-                     document.write ("<ul id='search-result'>");
-                     document.write ("</ul>");
+						 document.write ("<ul id='search-result'>");
+						 document.write ("</ul>");
                     document.write ("</div>");
               document.write ("</div>");
           document.write ("</div>");
@@ -40,10 +39,10 @@ document.write ("<div class='search'>");
 document.write ("</div>");
 document.write ("<div class='search_bottom'></div>");
 document.write ("<div class='clear'></div>");
-<!-- 搜索栏 end -->
 document.write ("</div>");
 document.write ("<div class='clear'>");
 document.write ("</div>");
+<!-- 搜索栏 end -->
 
 $(document).ready(function(){
 
