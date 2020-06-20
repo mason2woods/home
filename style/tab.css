@@ -12,7 +12,7 @@ h2{font-size:16px;font-weight:bold;margin:1em 0}*/
 
 /**tabs**/
 .tabPanel{ margin-top:0px;}
-.tabPanel ._tab{ width:999px; height:45px; border-top:solid #009b4d 2px; border-right:solid #cecece 1px; border-bottom:solid #eee 1px;}
+.tabPanel ._tab{ width:1000px; height:45px; border-top:solid #009b4d 2px; border-right:solid #cecece 1px; border-bottom:solid #eee 1px;}
 .tabPanel ._tab li{ width:120px; height:45px;line-height:45px; float:left; border-left:solid #eaeaea 1px; cursor:pointer;
 	/*text-shadow:0 1px 0 #fff;
 	border-radius:4px 4px 0 0;
@@ -29,7 +29,7 @@ h2{font-size:16px;font-weight:bold;margin:1em 0}*/
 	background:-webkit-gradient(linear, left top, left bottom, from(#ebebeb), to(#fff));
 	background:-moz-linear-gradient(top, #e1e1e1, #fff);
 }
-.tabPanel ._tab .hit:hover{ height:45px;line-height:45px;width:110px;
+.tabPanel ._tab .hit:hover{ height:45px;line-height:45px;width:119px;
 	border-bottom:1px solid #fff; margin-right:0px; padding-right:0px; cursor:pointer;color:black;text-shadow:0 1px 0 #fff;
 	background:#fff;
 	background:-webkit-gradient(linear, left top, left bottom, from(#f0f0f0), to(#fff));
