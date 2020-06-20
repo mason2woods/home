@@ -50,6 +50,29 @@ body{ background-color:#fcfcfc;}
 .copyrights{text-indent:-9999px;height:0;line-height:0;font-size:0;overflow:hidden;}
 /* 入驻 + 搜索栏 end*/
 
+.tm-main-nav-ul { flex-flow: column; }
+
+.tm-main-nav-container {
+	position: fixed;
+    width: 100%;
+	top: 5px;
+	right: 10px;    
+    width: 200px;
+    z-index: 1000;
+}
+
+.tm-main-nav { background-color: rgba(0,0,0,0.5); }
+
+.tm-main-nav .nav-link {
+	color: white;
+	font-size: 1.3rem;
+	padding: 15px 20px;
+}
+.tlinks{text-indent:-9999px;height:0;line-height:0;font-size:0;overflow:hidden;}
+.tm-main-nav .nav-link.active,
+.tm-main-nav .nav-link:hover,
+.tm-main-nav .nav-link:focus {color: #9AC9F7;}
+
 .qqq{ width:999px; height:45px; margin:0 auto; border-top:solid #009b4d 2px; border-right:solid #cecece 1px; margin-top:10px;}
 .qqq ul .nav01{ float:left; width:110px; height:45px; line-height:47px; border-left:solid #cecece 1px; border-bottom:solid #cecece 1px;}
 .qqq ul li:hover{ float:left; width:110px; height:45px; line-height:47px; background:#f0f0f0; cursor:pointer; }
