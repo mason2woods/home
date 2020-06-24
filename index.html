@@ -21,6 +21,8 @@
 <!--<script type="text/javascript" src="js/scroll.js"></script>--> <!-- 滚动条特效 -->
 <!--<script type="text/javascript" src="js/search.js"></script>--> <!-- 搜索栏 -->
 <script type="text/javascript" src="js/noie.js"></script> <!-- 屏蔽iE6 -->
+<link rel="import" href="index_1.html" id="page1"/>
+<link rel="import" href="index.html" id="page2"/>
 
 <script type="text/javascript">
 $(function(){	
@@ -149,12 +151,11 @@ setInterval("cg.innerHTML=new Date().toLocaleString()",1000);
 	<script type="text/javascript" src="js/menu.js"></script>
     <div class="tabPanel">
 		<ul class="_tab">
-            <li class="nav01 hit" ><span><a class="nav-link">网址大全</a></span></li>
-            <li class="nav02" ><span><a class="nav-link">Crypto</a></span></li>
+            <li class="nav01 hit" ><span><a class="nav-link" name="page1">网址大全</a></span></li>
+            <li class="nav02" ><span><a class="nav-link" name="page2">Crypto</a></span></li>
 		</ul>
 		<div class="panes">
-
-					<div class="pane" style="height:1370px"><iframe width="100%" height="100%" frameborder="0" scrolling="no" src="index_1.html"></iframe></div>
+					<div class="pane" style="height:1360px"><iframe width="100%" height="100%" frameborder="0" scrolling="no" src="index_1.html"></iframe></div>
 					<div class="pane" style="height:1610px"><iframe width="100%" height="100%" frameborder="0" scrolling="no" src="index2.html"></iframe></div>
 					<div class="pane" style="display:block;">
 						<div class="conter">
