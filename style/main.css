@@ -11,7 +11,11 @@ a:hover {color:#f08300; text-decoration:underline; }
 a:active {text-decoration: none; }
 .clear {clear: both;}
 
-body{ background-color:#fcfcfc;}
+body {
+  background-color: white;
+  color: black;
+  font-family: Verdana;
+}
 .header{ width:1000px; margin:0 auto;}      /* 后期 添加 */
 .head{ width:100%; margin:0 auto; height:28px; line-height:28px; background:#f7f7f7; border-bottom:solid #fff 2px; }
 .head_div{ width:1000px; margin:0 auto;}

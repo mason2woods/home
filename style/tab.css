@@ -29,7 +29,7 @@ h2{font-size:16px;font-weight:bold;margin:1em 0}*/
 	background:-webkit-gradient(linear, left top, left bottom, from(#ebebeb), to(#fff));
 	background:-moz-linear-gradient(top, #e1e1e1, #fff);
 }
-.tabPanel ._tab .hit:hover{ height:45px;line-height:45px;width:119px;
+.tabPanel ._tab .hit:hover{ height:45px;line-height:45px;width:120px;
 	border-bottom:1px solid #fff; margin-right:0px; padding-right:0px; cursor:pointer;color:black;text-shadow:0 1px 0 #fff;
 	background:#fff;
 	background:-webkit-gradient(linear, left top, left bottom, from(#f0f0f0), to(#fff));
@@ -39,8 +39,9 @@ h2{font-size:16px;font-weight:bold;margin:1em 0}*/
 .pane p{/*padding:15px 15px 0 10px;*/}
 /*.pane h4{padding:15px 15px 0 10px;font-size:14px;font-weight:bold;}*/
 
-.nav01 span{ width:110px; height:45px; background:url(../images/nav01.png) no-repeat left center; padding:2px 0 0 22px; font-size:14px; text-decoration:none; margin-left:17px; }
-.nav02 span{ width:110px; height:45px; background:url(../images/nav02.png) no-repeat left center; padding:2px 0 0 22px; font-size:14px; text-decoration:none; margin-left:17px; }
+
+.nav01 span{ width:120px; height:45px; background:url(../images/nav01.png) no-repeat left center; padding:2px 0 0 22px; font-size:14px; text-decoration:none; margin-left:17px; }
+.nav02 span{ width:120px; height:45px; background:url(../images/nav02.png) no-repeat left center; padding:2px 0 0 22px; font-size:14px; text-decoration:none; margin-left:17px; }
 .nav03 span{ width:110px; height:45px; background:url(../images/nav03.png) no-repeat left center; padding:2px 0 0 22px; font-size:14px; text-decoration:none; margin-left:17px; }
 .nav04 span{ width:110px; height:45px; background:url(../images/nav04.png) no-repeat left center; padding:2px 0 0 22px; font-size:14px; text-decoration:none; margin-left:17px; }
 .nav05 span{ width:110px; height:45px; background:url(../images/nav05.png) no-repeat left center; padding:2px 0 0 22px; font-size:14px; text-decoration:none; margin-left:17px; }
