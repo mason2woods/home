@@ -61,88 +61,6 @@ setInterval("cg.innerHTML=new Date().toLocaleString()",1000);
 </script>
 
 
-       <style>
-	html {
-      height: 100%;
-    }
-
-    body {
-      background: #f0f3ef;
-      height: 100%;
-    }
-
-    .container {
-      height: 100%;
-      display: flex;
-      justify-content: center;
-      align-items: center;
-      flex-direction: column;
-    }
-
-	.bgDiv{ 
-		width:600px; 
-		height:40px; 
-		float:left; 
-		margin:17px 10px 10px 3px;
-	}
-
-
-
-    .search-input-text {
-      border: 3px solid #b6b6b6;
-      width: 450px;
-      background: #fff;
-      height: 40px;
-      line-height: 30px;
-      font-size: 25px;
-      padding: 0px 0px 0px 0px;
-    }
-
-    .search-input-button {
-      width: 120px;
-      height: 50px;
-      color: #fff;
-      font-size: 25px;
-      letter-spacing: 5px;
-      background: #9900FF;
-      border: 2px  solid #2d78f4;
-      margin-left: 10px;
-      vertical-align: 0px;
-      opacity: 0.9;
-    }
-
-    .search-input-button:hover {
-      opacity: 1;
-      box-shadow: 5px 5px 1px #333;
-      cursor: pointer;
-    }
-
-    .suggest {
-      width: 453px;
-      position: absolute;
-      top: 223px;
-      border: 1px solid #999;
-      background: #fff;
-      display: none;
-    }
-
-    .suggest ul {
-      list-style: none;
-      margin: 0;
-      padding: 0;
-    }
-
-    .suggest ul li {
-      padding: 3px;
-      font-size: 17px;
-      line-height: 25px;
-      cursor: pointer;
-    }
-
-    .suggest ul li:hover {
-      background-color: #e5e5e5
-    }
-	</style>
 
 </head>
 
@@ -434,7 +352,6 @@ setInterval("cg.innerHTML=new Date().toLocaleString()",1000);
 </script>
 
 <script type="text/javascript" src="js/footer.js"></script> <!-- 网底 -->
-<!--<script type="text/javascript" src="js/index_lxwm.js"></script>--> <!-- 联系方式浮窗特效 -->
   <script>
     var suggestContainer = document.getElementsByClassName("suggest")[0];
     var searchInput = document.getElementsByClassName("search-input-text")[0];
