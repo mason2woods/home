@@ -612,14 +612,16 @@ border-bottom:solid #cecece 1px; border-left:solid #cecece 1px;  }
 .fixediv .btn a:hover {color:#fff;}
 .fixediv .btn:hover{ background-color:#39F;}
 
-	html {
-      height: 100%;
-    }
+	/* html { */
+      /* height: 100%; */
+    /* } */
 
-    body {
-      background: #f0f3ef;
-      height: 100%;
-    }
+    /* body { */
+      /* background: #f0f3ef; */
+      /* height: 100%; */
+    /* } */
+	
+body,html{margin:0px;padding:0px;background:url("../images/bj.png");}	
 
     .container {
       height: 100%;
