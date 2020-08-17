@@ -17,7 +17,7 @@ body {
   font-family: Verdana;
 }
 .header{ width:1000px; background:url("../images/bj.png"); margin:0 auto;}      /* 后期 添加 */
-.head{ width:100%; margin:0 auto; height:28px; line-height:28px; background:url("../images/bj.png"); border-bottom:solid #fff 2px; }
+.head{ width:100%; margin:0 auto; height:28px; line-height:28px; border-top:solid #cecece 1px; /*009b4d*/  border-right:solid #cecece 1px; border-bottom:solid #cecece 1px; border-left:solid #cecece 1px;  background:url("../images/bj.png");  }
 .head_div{ width:1000px; margin:0 auto;}
 .head_left{ float:left; margin-left:10px;}
 .head_left a{ color:#009a44; }
@@ -30,7 +30,7 @@ body {
 .head_right .to_ri_sp2{ background:url(../images/wujiaoxing.jpg) no-repeat left center; padding-left:20px; float:right; display:block;}
 
 .conter{ width:100%; margin:0 auto;}   /* width:100%; 为后期修改  原：width:1000px;*/
-.top{ overflow:hidden; width:1000px; margin-bottom:10px; margin:0 auto;}
+.top{ overflow:hidden; width:1000px; margin-bottom:10px; margin:0 auto; border-top:solid #cecece 1px; /*009b4d*/  border-right:solid #cecece 1px;  border-left:solid #cecece 1px; }
 /* .logo{ padding-top:10px;float:left;} */
 .logo{ padding:5px 50px 5px 60px;float:left;}
 .logo2{ padding:10px 0 5px 15px;float:left;}
@@ -41,7 +41,7 @@ body {
 .adv1{ float:right; border:solid #cecece 1px; padding:1px; margin-top:18px;}
 
 /* 入驻 + 搜索栏 */
-.search{ width:1000px; height:80px; background:url("../images/bj.png"); border-left:solid #cecece 1px; border-right:solid #cecece 1px; margin-top:10px; float:left; }
+.search{ width:1000px; height:80px; background:url("../images/bj.png");  border-right:solid #cecece 1px; border-bottom:solid #cecece 1px; border-left:solid #cecece 1px;  margin-top:10px; float:left; }
 .ruzhu{ padding:18px; float:left}
 .ruzhu:hover{filter:alpha(opacity=60);opacity:0.8;}
 .sea_left{ width:100px; height:40px; border:solid #009b4d 1px; float:left; margin:22px 10px 10px 25px;}
@@ -123,10 +123,10 @@ body {
 
 .wzdq{ margin-top:10px; background:url("../images/bj.png");}
 .main{ width:1000px; overflow:hidden; margin:0 auto; margin-top:10px;}  
-.lleft{ float:left; width:1000px; overflow:hidden; border-right:solid #cecece 1px; border-bottom:solid #cecece 1px; border-left:solid #cecece 1px; margin-bottom:0px; }
+.lleft{ float:left; width:1000px; overflow:hidden; border-right:solid #cecece 1px; border-bottom:solid #cecece 1px; border-left:solid #cecece 1px; margin:0 auto; }
 .left{ float:left; width:1000px; overflow:hidden; }
 /* 名站推荐 left1 */
-.lefts{overflow:hidden; border-top:solid #cecece 1px; /*009b4d*/ background:url("../images/bj.png"); }
+.lefts{overflow:hidden; border-top:solid #cecece 1px;/*009b4d*/ background:url("../images/bj.png"); }
 .lefts_top{ width:1000px; height:35px; background:url(../images/left1_top_bj.png) repeat-x; padding-left:20px; font-size:14px; font-weight:bold; border-bottom:solid #cecece 1px;}
 .lefts_top span{ background:url(../images/icon1.jpg) no-repeat; padding-left:20px; line-height:35px;}
 .lefts_main ul{ padding:10px 0 0px 17px; overflow:hidden; *padding:10px 0 8px 17px; }
@@ -136,7 +136,7 @@ body {
 .lefts_adv2{ border-bottom:solid #eee 1px; }
 .lefts_adv3{ border-right:solid #eee 1px; border-bottom:dashed #e1e1e1 1px; }
 .lefts_adv4{ border-bottom:dashed #eee 1px; }
-.lefts_bottom ul{ width:982px; overflow:hidden; margin:10px 0 15px 40px; *margin:0px 0 15px 15px;}
+.lefts_bottom ul{ width:982px; overflow:hidden; margin:10px 0 15px 40px; *margin:0px 1px 15px 15px;}
 .lefts_bottom ul li { width:100px; float:left; padding-left:5px; font-size:14px;}
 .lefts_bottom ul li a{ line-height:30px; padding-left:5px;}
 .lefts_bottom ul li .af1{ background:url(../images/nav03.png) no-repeat left center; padding:2px 0 0 22px; }
@@ -382,13 +382,14 @@ div.slider-nav span.left{background:url(../images/left.png);left:0; }
 /* 热门+其它+地区 end */
 
 /* 网底 footer */
-.footer{ width:1000px; overflow:hidden; margin:0 auto; background:url(../images/bj1.png); }
+.footer{ width:1000px; overflow:hidden; margin:0 auto; border-top:solid #cecece 1px; /*009b4d*/  border-right:solid #cecece 1px; border-bottom:solid #cecece 1px; border-left:solid #cecece 1px; background:url(../images/bj.png); }
+/* .lleft{ float:left; width:1000px; overflow:hidden; border-right:solid #cecece 1px; border-bottom:solid #cecece 1px; border-left:solid #cecece 1px; margin-bottom:0px; } */
 
-.footer_nav{ width:550px; height:43px; line-height:45px; margin:0 auto; text-align:center}
-.footer_nav a { font-size:12px; }
+.footer_nav{ width:550px; height:30px; line-height:45px; margin:0 auto; text-align:center}
+.footer_nav a { font-size:14px; }
 .fengexian{ height:1px; background:url(../images/fengexian1.jpg) no-repeat center;}
-.statement { width:850px; margin:0 auto; text-align:center; line-height:22px; padding:8px 75px 0 75px;; background:url(../images/bj1.png); } 
-.copyright{ width:1000px; text-align:center; font-family:Arial; line-height:25px; background:url(../images/bj1.png);}
+.statement { width:850px; margin:0 auto; text-align:center; line-height:22px; padding:8px 75px 0 75px;; background:url(../images/bj.png); } 
+.copyright{ width:1000px; text-align:center; font-family:Arial; line-height:25px; background:url(../images/bj.png);}
 /* 网底 footer end */
 
 /* 快捷方式 + 返回顶部 shortcut */
