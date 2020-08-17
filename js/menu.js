@@ -14,7 +14,7 @@ document.write ("<div class='top'>");
     document.write ("<div class='logo'><a href='https://dogecoin.com/' target='_blank'><img src='images/doge.png' width='81' height='100' alt='DOGE' title='Dogecoin' /></a></div>");
     document.write ("<div class='date'>");
         document.write ("<div class='weather'><iframe width='455' scrolling='no' height='75' frameborder='0' allowtransparency='true' src='https://i.tianqi.com/index.php?c=code&id=9'></iframe></div>");
-        document.write ("<a href='https://www.getmonero.org/'target='_blank'><img src='images/monero-logo.png' width='300' height='85' alt='门罗币' title='Home | Monero - secure, private, untraceable' /></a>");
+        document.write ("<div class='logo2'><a href='https://www.getmonero.org/'target='_blank'><img src='images/monero-logo.png' width='300' height='85' alt='门罗币' title='Home | Monero - secure, private, untraceable' /></a></div>");
     document.write ("</div>");
 document.write ("</div>");
 document.write ("<div class='clear'></div>");
