@@ -121,8 +121,8 @@ body {
 .qqq ul .tit08 span{ width:110px; height:45px; background:url(../images/nav8.png) no-repeat left center; padding:2px 0 0 22px; font-size:14px; text-decoration:none; margin-left:17px; }
 .qqq ul .tit09 span{ width:110px; height:45px; background:url(../images/nav9.png) no-repeat left center; padding:2px 0 0 22px; font-size:14px; text-decoration:none; margin-left:17px; }
 
-.wzdq{ margin-top:10px; background:url("../images/bj.png");}
-.main{ width:1000px; overflow:hidden; margin:0 auto; margin-top:10px;}  
+.wzdq{ margin-top:1px; background:url("../images/bj.png");}
+.main{ width:1000px; overflow:hidden; margin:0 auto; margin-top:1px;}  
 .lleft{ float:left; width:1000px; overflow:hidden; border-right:solid #cecece 1px; border-bottom:solid #cecece 1px; border-left:solid #cecece 1px; margin:0 auto; }
 .left{ float:left; width:1000px; overflow:hidden; }
 /* 名站推荐 left1 */
@@ -136,7 +136,7 @@ body {
 .lefts_adv2{ border-bottom:solid #eee 1px; }
 .lefts_adv3{ border-right:solid #eee 1px; border-bottom:dashed #e1e1e1 1px; }
 .lefts_adv4{ border-bottom:dashed #eee 1px; }
-.lefts_bottom ul{ width:982px; overflow:hidden; margin:10px 0 15px 40px; *margin:0px 1px 15px 15px;}
+.lefts_bottom ul{ width:982px; overflow:hidden; margin:10px 0 15px 45px; *margin:0px 1px 15px 15px;}
 .lefts_bottom ul li { width:100px; float:left; padding-left:5px; font-size:14px;}
 .lefts_bottom ul li a{ line-height:30px; padding-left:5px;}
 .lefts_bottom ul li .af1{ background:url(../images/nav03.png) no-repeat left center; padding:2px 0 0 22px; }
