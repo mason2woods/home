@@ -30,18 +30,18 @@ body {
 .head_right .to_ri_sp2{ background:url(../images/wujiaoxing.jpg) no-repeat left center; padding-left:20px; float:right; display:block;}
 
 .conter{ width:100%; margin:0 auto;}   /* width:100%; 为后期修改  原：width:1000px;*/
-.top{ overflow:hidden; width:1000px; margin-bottom:10px; margin:0 auto; border-top:solid #cecece 1px; /*009b4d*/  border-right:solid #cecece 1px;  border-left:solid #cecece 1px; }
+.top{ overflow:hidden; width:1000px; margin-bottom:0px; margin:0 auto; border-top:solid #cecece 1px; /*009b4d*/  border-right:solid #cecece 1px;  border-bottom:solid #cecece 1px; border-left:solid #cecece 1px; }
 /* .logo{ padding-top:10px;float:left;} */
-.logo{ padding:5px 50px 5px 60px;float:left;}
-.logo2{ padding:10px 0 5px 15px;float:left;}
-.date{ padding:5px 0 5px 5px;float:left;}
+.logo{ padding:5px 50px 0 60px;float:left;}
+.logo2{ padding:10px 0 0 15px;float:left;}
+.date{ padding:5px 0 0 5px;float:left;}
 .time{ width:75px; padding:28px 0 0 30px; font-size:12px; line-height:24px; float:left}
-.weather{ float:left; margin-top:5px; margin-left:10px; }
+.weather{ float:left; margin-top:20px; margin-left:10px; }
 .weather_five:hover{text-decoration: underline; color:#ff4800}
 .adv1{ float:right; border:solid #cecece 1px; padding:1px; margin-top:18px;}
 
 /* 入驻 + 搜索栏 */
-.search{ width:1000px; height:80px; background:url("../images/bj.png");  border-right:solid #cecece 1px; border-bottom:solid #cecece 1px; border-left:solid #cecece 1px;  margin-top:10px; float:left; }
+.search{ width:1000px; height:80px; background:url("../images/bj.png");  border-right:solid #cecece 1px; border-bottom:solid #cecece 1px; border-left:solid #cecece 1px;  margin-top:0px; float:left; }
 .ruzhu{ padding:18px; float:left}
 .ruzhu:hover{filter:alpha(opacity=60);opacity:0.8;}
 .sea_left{ width:100px; height:40px; border:solid #009b4d 1px; float:left; margin:22px 10px 10px 25px;}
@@ -165,14 +165,9 @@ div.slider-nav span.left{background:url(../images/left.png);left:0; }
 /* 焦点图特效 end */
 /* 最新资讯 left2 end */
 
-/* 招商专区 left3 */
-.left3{ overflow:hidden; background-color:#fff; }
-.left3 ul { width:215px; overflow:hidden; margin:10px 0 5px 12px;}
-.left3 ul li { width:100px; float:left; padding-left:5px; font-size:14px; }
-.left3 ul li a{ background:url(../images/icon2.jpg) no-repeat 0 center; line-height:30px; padding-left:10px;}
-/* 招商专区 left3 end */
 
-.right{ float:right; width:1000px; margin-left:10px; margin-bottom:0px;}
+
+.right{ float:right; width:1000px; margin-left:0px; margin-bottom:0px;}
 /* 黄金段位 right1*/
 .right1{ overflow:hidden; border-top:solid #cecece 1px; /*009b4d*/  border-right:solid #cecece 1px; border-bottom:solid #cecece 1px; border-left:solid #cecece 1px;  background:url("../images/bj.png"); }
 .right1 .gold1 { overflow:hidden; margin:8px 0 10px 50px; background:url(../images/fengexian1.jpg) no-repeat bottom; padding-bottom:10px; }
@@ -183,44 +178,7 @@ div.slider-nav span.left{background:url(../images/left.png);left:0; }
 .right1 .gold2 li span{ color:#f08300; }
 /* 黄金段位 right1  end */
 
-/* 夹层链接 right2 */
-.right2{ height:40px; line-height:40px; font-size:12px; padding-left:10px;}
-.right2 span a{ padding-left:7px; color:#009b4d;  *padding-left:5px;}
-.right2 span a:hover { color:#f08300; }
-/* 夹层链接 right2 end */
 
-/* 常规链接区 right3 */
-.right3{ width:748px; float:right; border-bottom:solid #cecece 1px; border-left:solid #cecece 1px; border-right:solid #cecece 1px; font-size:14px; background:#fff; margin-bottom:10px; }
-.menu{ width:560px; *width:560px;  float:left; text-align:center; margin:0 25px 0 0px; }
-#ul_links_top{ margin-top:8px;}
-#ul_links_bottom{ margin-bottom:8px;}
-.right3_ul{ width:748px; float:right;}
-.right3_ul .topli{ height:35px; line-height:37px; padding-left:10px; border-top:solid #cecece 1px; background:#fef8f3;border-bottom:solid #cecece 1px; }
-.right3_ul .topli a { color:#f08300; font-weight:bold; padding:0 10px;}
-.right3_ul .links{ width:740px; height:33px; line-height:33px; float:left; padding-left:8px; /*2014-8-7-17:07 由 padding-left:10px; 改为 padding-left:8px;*/}
-.right3_ul .links:hover{ background:#fef8f3; }
-.right3_ul .links .links_left a{ width:90px; float:left; margin-right:20px; color:#009b4d; }
-.right3_ul .links .links_left a:hover{ text-decoration: none; color:#f08300; }
-.right3_ul .links .links_center{ margin-right:12px; text-align:center; *margin-right:10px;}
-.right3_ul .links .links_right{ width:40px; font-size:12px; }
-/* 常规链接区 right3 end */
-
-/* 四合一 */
-.fourinone{ width:748px; height:230px; overflow:hidden; border:solid #cecece 1px; position:relative; font-size:14px; background:#fff; }
-.one{ width:748px; height:230px; background:url(../images/jiaobiao.png) no-repeat; }
-.theone{ width:723px!important; height:220px; margin:15px 0 0 14px;}
-.fourinone ul{ width:168px; float:left; margin-left:10px;}
-.fourinone ul li { width:168px; height:28px; float:left; overflow:hidden; white-space:nowrap; text-overflow:ellipsis; }
-.fourinone ul li a{ width:168px; height:28px; background:url(../images/icon2.jpg) no-repeat 0 center; color:#333; line-height:28px; padding-left:12px;}
-.fourinone ul li a:hover{ color:#f08300; }
-.fourinone ul .one_lv { margin-bottom:8px; padding-left:5px;}
-.fourinone ul .one_lv a{ background:none; color:#009a44; padding:0; }
-.fourinone ul .one_lv span{ background:none; color:#eee; }
-.one_pre{ width:22px;height:61px; display:block; position:absolute; left:0; z-index:1;top:38%; background:url(../images/yjjp_leri.png) -190px 16px #fff  no-repeat;cursor:pointer;display:none;}
-.one_next{ width:22px;height:61px; display:block; position:absolute; right:0; top:38%; background:url(../images/yjjp_leri.png) -80px 16px #fff no-repeat;cursor:pointer;display:none; }
-.one_pre:hover{ width:22px;height:61px; display:block;position:absolute; left:0; z-index:1;top:38%; left:-1px; background:url(../images/yjjp_leri.png) -130px 16px #999 no-repeat;cursor:pointer; display:none;}
-.one_next:hover{ width:22px;height:61px; display:block; position:absolute; right:0; top:38%; background:url(../images/yjjp_leri.png) -20px 16px #999 no-repeat;cursor:pointer; display:none; }
-/* 四合一 end */
 
 /* 四合一附属区域 */
 .fushu{ width:1000px; height:170px; overflow:hidden; border:solid #cecece 1px; background:#fff; margin-top:10px;}
