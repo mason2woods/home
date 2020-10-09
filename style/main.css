@@ -56,8 +56,8 @@ body {
     }
 
 	.bgDiv{ 
-		width:70%; 
-		min-width:420px;
+		width:95%; 
+		min-width:425px;
 		height:40px; 
 		float:left; 
 		margin:17px 10px 10px 3px;
@@ -66,23 +66,23 @@ body {
 
 
     .search-input-text {
-      border: 2px solid #b6b6b6;
-      width: 70%;
+      border: 1px solid #b6b6b6;
+      width: 73.5%;
       background: #fff;
       height: 40px;
       line-height: 30px;
       font-size: 25px;
-      padding: 0px 0px 0px 0px;
+      padding: 0px 0px 0px 5px;
     }
 
     .search-input-button {
-      width: 110px;
+      width: 22%;
       height: 45px;
       color: #fff;
-      font-size: 22px;
-      letter-spacing: 5px;
+      font-size: 20px;
+      letter-spacing: 1px;
       background: #9900FF;
-      border: 2px  solid #2d78f4;
+      border: 1px  solid #2d78f4;
       float:right;
 	  /* margin-left: 10px; */
       vertical-align: 0px;
@@ -90,13 +90,13 @@ body {
     }
 
     .search-input-button:hover {
-      opacity: 1;
+      opacity: 2;
       box-shadow: 5px 5px 1px #333;
       cursor: pointer;
     }
 
     .suggest {
-      width: 295px;
+      width: 325px;
       position: absolute;
       top: 200px;
       border: 1px solid #999;
