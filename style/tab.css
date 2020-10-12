@@ -11,7 +11,7 @@ h2{font-size:16px;font-weight:bold;margin:1em 0}*/
 
 
 /**tabs**/
-.tabPanel{ margin-top:0px;background:url("../images/bj.png");}
+.tabPanel{width:100%; margin-top:0px;background:url("../images/bj.png");border-right:solid #cecece 1px; border-bottom:solid #cecece 1px; border-top:solid #cecece 1px;border-left:solid #cecece 1px;}
 .tabPanel ._tab{ width:100%; height:45px; border-top:solid #009b4d 2px; border-right:solid #cecece 1px; border-bottom:solid #eee 1px;}
 .tabPanel ._tab li{ width:120px; height:45px;line-height:45px; float:left; border-left:solid #eaeaea 1px; cursor:pointer;
 	/*text-shadow:0 1px 0 #fff;
