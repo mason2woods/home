@@ -12,7 +12,7 @@ document.write ("<div class='clear'></div>");
 
 document.write ("<div class='top'>");
 		document.write ("<div class='date'>");
-			document.write ("<iframe width='460' scrolling='no' height='75' frameborder='0' allowtransparency='true' src='https://i.tianqi.com/index.php?c=code&id=9' align='middle'></iframe>");
+			document.write ("<iframe width='460' scrolling='no' height='85' frameborder='0' allowtransparency='true' src='https://i.tianqi.com/index.php?c=code&id=9' align='middle'></iframe>");
 		document.write ("</div>");
 
 		document.write ("<div class='clear'></div>");
