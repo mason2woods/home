@@ -266,6 +266,9 @@ div.slider-nav span.left{background:url(../images/left.png);left:0; }
 .right1 .gold2 { overflow:hidden; margin:8px 0 5px 50px;}
 .right1 .gold2 li { font-size:20px; width:182.5px; float:left; margin:25 10px 25 11px; line-height:30px;}
 .right1 .gold2 li span{ color:#f08300; }
+.right1 .gold3 { overflow:hidden; margin:8px 0 10px 50px;}
+.right1 .gold3 li { font-size:20px; width:182.5px; float:left; margin:25 10px 25 11px; text-indent:inherit; }
+.right1 .gold3 li a { background:url(../images/nav03.png) no-repeat left center; padding:2px 0 0 22px; }
 /* 黄金段位 right1  end */
 
 
