@@ -102,19 +102,19 @@ body {
     }
 
     .search-input-button:hover {
-      opacity: 2;
+      opacity:2;
       box-shadow: 5px 5px 1px #333;
       cursor: pointer;
     }
 	
 	.suggest {
-      width: 17.2%;
+      width:17.2%;
 	  min-width:234px;
       position:absolute;
-      top: 183x;
+      /* top:180x; */
 	  /* left:100px; */
-      border: 1px solid #2d78f4;
-      background: #fff;
+      border: 0px solid #2d78f4;
+      background:#F5F5F5;
       display: none;
     }
 
@@ -190,18 +190,6 @@ body {
 .lefts_bottom ul li a{ line-height:30px; padding-left:5px;}
 .lefts_bottom ul li .af1{ background:url(../images/nav03.png) no-repeat left center; padding:2px 0 0 22px; }
 .lefts_bottom ul li .af2{ background:url(../images/nav03.png) no-repeat left center; padding:2px 0 0 22px; }
-.lefts_bottom ul li .af3{ background:url(../images/nav03.png) no-repeat left center; padding:2px 0 0 22px; }
-.lefts_bottom ul li .af4{ background:url(../images/nav03.png) no-repeat left center; padding:2px 0 0 22px; }
-.lefts_bottom ul li .af5{ background:url(../images/nav03.png) no-repeat left center; padding:2px 0 0 22px; }
-.lefts_bottom ul li .af6{ background:url(../images/nav03.png) no-repeat left center; padding:2px 0 0 22px; }
-.lefts_bottom ul li .af7{ background:url(../images/nav03.png) no-repeat left center; padding:2px 0 0 22px; }
-.lefts_bottom ul li .af8{ background:url(../images/nav03.png) no-repeat left center; padding:2px 0 0 22px; }
-.lefts_bottom ul li .af9{ background:url(../images/nav03.png) no-repeat left center; padding:2px 0 0 22px; }
-.lefts_bottom ul li .af10{ background:url(../images/nav03.png) no-repeat left center; padding:2px 0 0 22px; }
-.lefts_bottom ul li .af11{ background:url(../images/nav03.png) no-repeat left center; padding:2px 0 0 22px; }
-.lefts_bottom ul li .af12{ background:url(../images/nav03.png) no-repeat left center; padding:2px 0 0 22px; }
-.lefts_bottom ul li .af13{ background:url(../images/nav03.png) no-repeat left center; padding:2px 0 0 22px; }
-.lefts_bottom ul li .af14{ background:url(../images/nav03.png) no-repeat left center; padding:2px 0 0 22px; }
 
 /* 名站推荐 left1 end */
 #sucai{width:238px; overflow:hidden; z-index:999; margin-bottom:10px; background:#fff; }
