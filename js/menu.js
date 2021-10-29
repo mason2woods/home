@@ -24,7 +24,7 @@ document.write ("<div class='top'>");
 			document.write ("<div class='sea'> ");
 			  document.write ("<div class='container'>");
 			  document.write ("<div class='searchx'>");
-			  document.write ("<div class='sea_left'><p style='font-size:20px;color:white;font-family:SimHei' >必应</p></div>");
+			  document.write ("<div class='sea_left'><p style='font-size:20px;color:white;font-family:SimHei' >百度</p></div>");
 				  document.write ("<div class='bgDiv'>");
 						document.write ("<input type='text' class='search-input-text' value='' autofocus placeholder='请输入关键词'>");
 						document.write ("<input type='button' value='' class='search-input-button' id='btn'>");

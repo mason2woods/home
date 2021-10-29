@@ -13,9 +13,6 @@
 <link rel="stylesheet" type="text/css" href="style/tab.css" media="all" />
 <link rel="stylesheet" type="text/css" href="style/main.css"  />
 <script type="text/javascript" src="js/noie.js"></script> <!-- 屏蔽iE6 -->
-<!-- <link rel="import" href="index_1.html" id="page1"/> -->
-<!-- <link rel="import" href="index.html" id="page2"/> -->
-
 <script type="text/javascript">
   function clock(){
   var time=new Date();
@@ -372,7 +369,7 @@ setInterval("cg.innerHTML=new Date().toLocaleString()",1000);
 
 
     function jumpPage() {
-      window.open(`https://cn.bing.com/search?q=${encodeURI(searchInput.value)}`);
+      window.open(`https://www.baidu.com/s?&wd=${encodeURI(searchInput.value)}`);
     }
 
     // 事件委托 点击li标签或者点击搜索按钮跳转到百度搜索页面
